@@ -186,6 +186,7 @@ end
 def big_shoe_rebounds
   if game_hash[:shoe_size] == 19
     return game_hash[:rebounds]
+  end
 end
 
 
