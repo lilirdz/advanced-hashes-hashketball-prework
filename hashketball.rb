@@ -176,7 +176,10 @@ def player_stats(name)
           if name == player[:player_name]
             player.delete(:player_name)
             return player
-            
+          end
+        end
+      end
+    end
   end
 end
 
