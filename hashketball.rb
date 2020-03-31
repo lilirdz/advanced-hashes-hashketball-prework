@@ -153,7 +153,9 @@ def team_names
 end
 
 def player_numbers(team_name)
+  jersey_numbers = {}
   game_hash.each do |team, team_info|
+  end
     
 end
 
