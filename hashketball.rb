@@ -118,10 +118,10 @@ def game_hash
   game_hash
 end
 
-def num_points_scored
+def num_points_scored(search_player)
   game_hash.each do |team,team_info|
     team_info.each do |player|
-      if 
+      if pla
 end
 
 def shoe_size
