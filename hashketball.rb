@@ -175,7 +175,7 @@ def player_stats(name)
       if player == :players
         player_stats.each do |player|
           if name == player[:player_name]
-            
+            player.delete[:player_name]
             
   end
 end
