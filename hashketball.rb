@@ -120,7 +120,7 @@ end
 
 def num_points_scored
   game_hash.each do |team,team_info|
-    if 
+    team_info.each do |
 end
 
 def shoe_size
